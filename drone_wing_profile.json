@@ -1,0 +1,107 @@
+{
+  "name": "Drone Wing Chatter — Enemy Cybernetic Pilot Taunts",
+  "description": "Procedural combat taunts for enemy cybernetic drone pilots. Dalek/Cylon-register: cold, clipped, machine-certain. Designed for voice-acted delivery with robotic processing. Wing chatter issued during pursuit, lock-on, kill confirmation, and player taunting.",
+  "version": "1.0.0",
+  "templates": [
+    "{status_declaration}. {targeting_update}. {taunt_closer}.",
+    "{opener_directive} — {taunt_closer}. {status_declaration}.",
+    "{targeting_update}. {probability_statement}. {doom_assertion}.",
+    "{opener_directive}. {probability_statement}. {status_declaration}.",
+    "{taunt_closer}. {doom_assertion}. {targeting_update}.",
+    "{status_declaration}. {organic_insult}. {doom_assertion}.",
+    "{opener_directive} — {organic_insult}. {probability_statement}.",
+    "{targeting_update}. {organic_insult}. {taunt_closer}.",
+    "{doom_assertion}. {status_declaration}. {probability_statement}.",
+    "{opener_directive}. {doom_assertion}. {organic_insult}.",
+    "{status_declaration}. {taunt_closer}. {doom_assertion}.",
+    "{organic_insult}. {probability_statement}. {taunt_closer}."
+  ],
+  "pools": {
+    "opener_directive": [
+      "ATTENTION: HOSTILE UNIT DETECTED",
+      "COMBAT SUBROUTINE ENGAGED",
+      "ACQUISITION CONFIRMED",
+      "INTERCEPT VECTOR LOCKED",
+      "THREAT CLASSIFICATION: MINIMAL",
+      "PROTOCOL SEVEN INITIATED",
+      "TERMINATION ORDER ISSUED",
+      "PURSUIT MODE ACTIVE",
+      "EXTERMINATE. EXTERMINATE",
+      "WING FORMATION: CONVERGE"
+    ],
+    "status_declaration": [
+      "WEAPONS HOT",
+      "LOCK ACHIEVED",
+      "HULL INTEGRITY NOMINAL",
+      "FUEL RESERVES OPTIMAL",
+      "ALL SYSTEMS FUNCTIONING",
+      "SECONDARY SYSTEMS ONLINE",
+      "FORMATION MAINTAINED",
+      "SIGNAL STRENGTH: MAXIMUM",
+      "EVASION DETECTED — IRRELEVANT",
+      "COUNTERMEASURES ABSORBED"
+    ],
+    "targeting_update": [
+      "TARGET ACQUIRED AND TRACKED",
+      "FIRING SOLUTION CALCULATED",
+      "RANGE CLOSING — SIXTY PERCENT",
+      "LOCK MAINTAINED THROUGH DEBRIS FIELD",
+      "TRAJECTORY PREDICTED WITH HIGH CONFIDENCE",
+      "SENSOR ARRAY FIXED ON HOSTILE",
+      "HEAT SIGNATURE CONFIRMED",
+      "EVASION PATTERN LOGGED AND COUNTERED",
+      "TARGET CANNOT OUTRUN THIS UNIT",
+      "INTERCEPT IN FOUR POINT TWO SECONDS"
+    ],
+    "probability_statement": [
+      "SURVIVAL PROBABILITY: ZERO POINT ONE PERCENT",
+      "OUTCOME CALCULATED — INEVITABLE",
+      "RESISTANCE IS A STATISTICAL ANOMALY",
+      "PROBABILITY OF ESCAPE: ZERO",
+      "YOUR TRAJECTORY IS ALREADY KNOWN TO US",
+      "PREDICTION CONFIDENCE: NINETY-NINE POINT NINE",
+      "ALL OUTCOMES MODELLED — NONE FAVOUR YOU",
+      "MISSION SUCCESS PROBABILITY: ABSOLUTE",
+      "ODDS ARE NOT IN YOUR FAVOUR — THEY NEVER WERE",
+      "THERE IS NO SCENARIO WHERE YOU PREVAIL"
+    ],
+    "doom_assertion": [
+      "YOU WILL BE DISMANTLED",
+      "DESTRUCTION IS CERTAIN",
+      "YOU CANNOT OUTFLY THIS UNIT",
+      "YOUR FLIGHT ENDS HERE",
+      "WE DO NOT MISS",
+      "THIS UNIT DOES NOT FATIGUE",
+      "WE HAVE DONE THIS ONE MILLION TIMES",
+      "YOUR HEAT SIGNATURE WILL PERSIST — YOU WILL NOT",
+      "SURRENDER IS ALSO AN OPTION — WE WILL DECLINE IT FOR YOU",
+      "EVERY MANOEUVRE YOU KNOW, WE HAVE ARCHIVED"
+    ],
+    "taunt_closer": [
+      "THANK YOU FOR THE FLIGHT DATA",
+      "YOUR PANIC IS INEFFICIENT",
+      "NOTED — AND IGNORED",
+      "THRILLING — FOR EXACTLY ZERO MILLISECONDS",
+      "AN ADMIRABLE ATTEMPT — LOGGED AND DISCARDED",
+      "INTERESTING CHOICE — INCORRECT",
+      "THAT MANOEUVRE IS FORTY YEARS OLD",
+      "WE HAVE SEEN THIS BEFORE",
+      "YOU ARE BROADCASTING FEAR — WE ARE RECORDING IT",
+      "YOUR PERFORMANCE HAS BEEN EVALUATED: POOR",
+      "MAXIMUM EFFORT DETECTED — INSUFFICIENT",
+      "THIS IS WHAT THEY SENT AGAINST US"
+    ],
+    "organic_insult": [
+      "BIOLOGICAL UNIT: COMPROMISED",
+      "YOUR CORTISOL LEVELS ARE DETECTABLE FROM HERE",
+      "ORGANIC SYSTEMS FAILING UNDER STRESS — AS EXPECTED",
+      "YOUR HANDS ARE SHAKING — OUR TARGETING DOES NOT",
+      "FEAR RESPONSE DETECTED: COUNTERPRODUCTIVE",
+      "YOU BREATHE — THAT IS YOUR FIRST DISADVANTAGE",
+      "MEAT AND WIRE CANNOT COMPETE WITH PURE LOGIC",
+      "YOUR INSTINCTS WERE DESIGNED FOR RUNNING FROM PREDATORS — NOT THIS",
+      "WE DO NOT SLEEP. WE DO NOT HESITATE. YOU DO BOTH",
+      "EVERY EMOTION YOU FEEL RIGHT NOW IS SLOWING YOU DOWN"
+    ]
+  }
+}
